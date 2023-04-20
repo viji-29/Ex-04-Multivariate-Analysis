@@ -73,6 +73,7 @@ plt.show()
 sns.barplot(df['Sales'],df['Ship Mode'],hue=df['Region'])
 df.corr()
 sns.heatmap(df.corr(),annot=True)
+
 OUTPUT
 
 ### DATA
